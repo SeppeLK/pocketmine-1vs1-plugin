@@ -161,16 +161,8 @@ class Arena{
    /**
     * Reset the Arena to current state
     */
-   private function reset(){
-   		// Put active a rena after the duel
+    private function reset() {
    		$this->active = FALSE;
-   		foreach ($this->players as $player){
-   			$player->getInventory()->setItemInHand(new Item(Item::AIR,0,0));
-   			$player->getInventory()->clearAll();
-   			$player->getInventory()->sendArmorContents($player);
-   			$player->getInventory()->sendContents($player);
-   			$player->getInventory()->sendHeldItem($player);
-   		}
    		$this->players = array();
    		$this->startTime = NULL;
    		if($this->taskHandler != NULL){

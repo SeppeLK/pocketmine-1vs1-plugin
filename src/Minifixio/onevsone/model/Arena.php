@@ -161,7 +161,7 @@ class Arena{
    /**
     * Reset the Arena to current state
     */
-    private function reset() {
+   public function reset() {
    		$this->active = FALSE;
    		$this->players = array();
    		$this->startTime = NULL;

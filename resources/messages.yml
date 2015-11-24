@@ -7,7 +7,7 @@
 #Queue messages
 ###############
 queue_join: "You've joined the &41vs1 &fqueue"
-queue_playersinqueue: "Waiting players :&2 "
+queue_playersinqueue: "Waiting for players :&2 "
 queue_popup: "&4» You've joined the 1vs1 queue"
 queue_alreadyinqueue: "&4You are already in the queue !"
 

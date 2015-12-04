@@ -25,7 +25,7 @@ duel_timeover: "&f&l++++++++=++++++++\n&6> Playing time &6over&6, no winners !\n
 ###############
 #Arena messages
 ###############
-arena_alreadyinarena: "&4You are already in a arena !"
+arena_alreadyinarena: "&4You are already in the arena !"
 
 ###############
 #Reward Command
